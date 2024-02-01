@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'salsa', cursive;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(24, 22, 22), rgb(45, 119, 161), rgb(206, 194, 194));
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 35px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.cabeçalho-link a{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color: #ffffff;
+    transition: 0.3s all;
+}
+
+.logo  {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: rgb(255, 255, 255) 1px solid;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color:#ffffff;
+    transition: 0.5s;
+
+}
+
+.container-text{
+    padding: 100px 0 0 60px;
+}
+
+.text h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.text h1{
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.text span {
+    color: black;
+}
+
+.text p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: black;
+    padding: 20px ;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+/*Meus projetos*/
+ h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+ }
+
+/*projeto login*/
+
+.login {
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%; 
+    display: block;
+    max-width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .login:hover {
+    transform: scale(1.01);
+  }
+
+  
+/*hdc host*/
+
+  .hdchost {
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%; 
+    display: block;
+    max-width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+  }
+
+  .hdchost:hover {
+    transform: scale(1.01);
+  }
+
+  /*ajuste da imagem*/
+
+  .imagem-container {
+    display: flex;
+    max-width: 400px; /* Defina a largura máxima desejada */
+    margin: 20px auto;
+    overflow: hidden; /* Evita que a imagem ultrapasse a largura máxima */
+}
+
+.imagem-container img {
+    width: 100%; /* Faz com que a imagem ocupe 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+/*habilidades*/
+
+.tecnologias {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tecnologia {
+    text-align: center;
+}
+
+.tecnologia i {
+    font-size: 3em;
+    color: #ffffff; /* Cor azul associada ao React */
+}
+
+.tecnologia p {
+    margin: 10px 0;
+}
+
+/*mais projetos em breve*/
+.card {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #d1d1d1;
+}
+
+.card p {
+    color: #000000;
+}
+
+/*meu contato*/
+.contact-card {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #d1d1d1;
+}
+
+.contact-info p {
+    color: #000000;
+}
+
+.contact-info a {
+    color: #03d9ff;
+}
+
+/*footer*/
+footer {
+    background-image: linear-gradient(to left, rgb(24, 22, 22), rgb(45, 119, 161), rgb(206, 194, 194));
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
